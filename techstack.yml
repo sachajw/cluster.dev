@@ -1,7 +1,8 @@
 repo_name: sachajw/cluster.dev
 report_id: 9da130fce56bce04a5d654156dd7d6f1
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-16T10:45:34+00:00'
+timestamp: '2024-01-05T08:39:13+00:00'
 requested_by: anastyakulyk
 provider: github
 branch: master
@@ -17,6 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/sachajw/cluster.dev
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -26,6 +28,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/sachajw/cluster.dev
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -35,7 +38,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/website.yml"
+  detection_source_url: https://github.com/sachajw/cluster.dev/blob/master/.github/workflows/codeql-analysis.yml
+  detection_source: ".github/workflows/codeql-analysis.yml"
   last_updated_by: Volodymyr Tsap
   last_updated_on: 2022-06-12 18:37:47.000000000 Z
 - name: Shell
@@ -47,4 +51,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/sachajw/cluster.dev
   detection_source: Repo Metadata
